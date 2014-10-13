@@ -20,6 +20,7 @@
 @property (nonatomic) UIColor *descriptionTextShadowColor; //default is [[UIColor blackColor] colorWithAlphaComponent:0.4]
 @property (nonatomic) CGSize   descriptionTextShadowOffset; //default is CGSizeMake(0, 1)
 @property (nonatomic) NSTimeInterval duration;//default is 1.0
+@property (nonatomic) CGFloat innerCircleRadius;
 
 - (void)strokeChart;
 

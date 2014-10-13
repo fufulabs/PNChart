@@ -15,7 +15,6 @@
 @property (nonatomic) CGFloat currentTotal;
 
 @property (nonatomic) CGFloat outterCircleRadius;
-@property (nonatomic) CGFloat innerCircleRadius;
 
 @property (nonatomic) UIView  *contentView;
 @property (nonatomic) CAShapeLayer *pieLayer;
